@@ -63,8 +63,8 @@ def login():
     except (KeyError, IOError):
         os.system('clear')
         print logo
-        print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[+] \x1b[1;92mLOGIN FACEBOOK \x1b[
+        print 40 * '\x1b[1;97m\xe2\x95\x90
+	
         tik()
         try:
             br.open('https://m.facebook.com')
