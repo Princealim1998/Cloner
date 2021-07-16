@@ -22,7 +22,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = '\x1b[1;93m*TOOLS FACEBOOK G0B3Y*\n\x1b[1;93m* \x1b[1;97mTOOLS PRIBADI  \x1b[1;91m: \x1b[1;96mG0B3Y\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mNote \x1b[1;91m: \x1b[1;96mHati-Hati Kena Sesi Akunmu!\n\x1b[0m\n[*] TOOLS PRIBADI BY MR-G0B3Y\n'
+logo = '\x1b[1;93m*TOOLS FACEBOOK DARK-WORLD*\n\x1b[1;93m* \x1b[1;97mTOOLS PRIBADI  \x1b[1;91m: \x1b[1;96mDARK WORLD\x1b[1;97m\n\x1b[1;93m* \x1b[1;97mNote \x1b[1;91m: \x1b[1;96mHati-Hati Kena Sesi Akunmu!\n\x1b[0m\n[*] TOOLS PRIBADI BY MR-PRINCE\n'
 
 def tik():
     titik = [
@@ -64,9 +64,7 @@ def login():
         os.system('clear')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[+] \x1b[1;92mLOGIN AKUN FACEBOOK \x1b[1;91m[+]'
-        id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
-        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
+        print '\x1b[1;91m[+] \x1b[1;92mLOGIN FACEBOOK \x1b[
         tik()
         try:
             br.open('https://m.facebook.com')
