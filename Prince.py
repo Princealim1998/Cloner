@@ -53,20 +53,7 @@ komengrup = []
 listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
-
-
-def login():
-    os.system('clear')
-    try:
-        toket = open('login.txt', 'r')
-        menu()
-    except (KeyError, IOError):
-        os.system('clear')
-        print logo
-        print 40 * '\x1b[1;97m\xe2\x95\x90
-	
-        tik()
-        try:
+    
             br.open('https://m.facebook.com')
         except mechanize.URLError:
             print '\n\x1b[1;91m[!] NO CONNECTION'
