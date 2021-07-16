@@ -53,12 +53,6 @@ komengrup = []
 listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
-    
-            br.open('https://m.facebook.com')
-        except mechanize.URLError:
-            print '\n\x1b[1;91m[!] NO CONNECTION'
-            keluar()
-
         br._factory.is_html = True
         br.select_form(nr=0)
         br.form['email'] = id
